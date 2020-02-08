@@ -1,4 +1,4 @@
-16941056149790208
+16945801445397148
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -61817,13 +61817,6 @@ ST PowerSSO-36 1EP 7.5x10.3mm Pitch 0.8mm
 36
 36
 Package_SO
-Si88640ED
-
-
-0
-24
-24
-Package_SO
 TI_SO-PowerPAD-8
 8-Lead Plastic PSOP, Exposed Die Pad (TI DDA0008B, see http://www.ti.com/lit/ds/symlink/lm3404.pdf)
 SSOP 0.50 exposed pad
@@ -65071,6 +65064,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Platine
+SOIC-4
+
+
+0
+4
+4
 Potentiometer_SMD
 Potentiometer_ACP_CA6-VSMD_Vertical
 Potentiometer, vertical, ACP CA6-VSMD, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf
@@ -68669,13 +68669,6 @@ rotary encoder
 0
 5
 4
-STM32F103C8T6
-QFP50P900X900X160-48N
-
-
-0
-48
-48
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -69110,6 +69103,34 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+Studienarbeit
+ADuM3190ARQZ
+
+
+0
+16
+16
+Studienarbeit
+IRF540NPBF
+
+
+0
+3
+3
+Studienarbeit
+RFM-0505S
+
+
+0
+4
+4
+Studienarbeit
+VOM1271
+
+
+0
+4
+4
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
