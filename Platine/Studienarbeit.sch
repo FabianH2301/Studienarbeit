@@ -1232,21 +1232,6 @@ Wire Wire Line
 	10900 6150 10900 6200
 Wire Wire Line
 	10900 6200 10800 6200
-$Comp
-L Connector:Conn_01x04_Female J5
-U 1 1 5ED67E70
-P 9150 6000
-F 0 "J5" H 9178 5976 50  0000 L CNN
-F 1 "Conn_01x04_Female" H 9178 5885 50  0000 L CNN
-F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 9150 6000 50  0001 C CNN
-F 3 "~" H 9150 6000 50  0001 C CNN
-	1    9150 6000
-	1    0    0    -1  
-$EndComp
-Text Label 8950 6200 2    50   ~ 0
-MCR+
-Text Label 8950 6100 2    50   ~ 0
-MCR-
 Text Label 10000 2000 2    50   ~ 0
 MA2-
 Text Label 10000 1800 2    50   ~ 0
@@ -1476,9 +1461,9 @@ MA1+
 Text Label 9650 3250 2    50   ~ 0
 MA1-
 Text Label 9700 4300 2    50   ~ 0
-MA1+
+MA2+
 Text Label 9700 4700 2    50   ~ 0
-MA1-
+MA2-
 $Comp
 L Connector:Conn_01x04_Female J7
 U 1 1 5EB180F5
@@ -1829,4 +1814,27 @@ F 3 "" H 1350 6600 50  0001 C CNN
 	1    1850 6000
 	1    0    0    -1  
 $EndComp
+Text Label 4100 1550 3    50   Italic 0
+RESET
+Wire Wire Line
+	4100 1800 4100 1550
+Text Label 2550 6900 0    50   ~ 0
+VBAT
+Text Label 4100 2500 2    50   ~ 0
+C13
+Text Label 8950 6100 2    50   ~ 0
+MCR-
+$Comp
+L Connector:Conn_01x04_Female J5
+U 1 1 5ED67E70
+P 9150 6000
+F 0 "J5" H 9178 5976 50  0000 L CNN
+F 1 "Conn_01x04_Female" H 9178 5885 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 9150 6000 50  0001 C CNN
+F 3 "~" H 9150 6000 50  0001 C CNN
+	1    9150 6000
+	1    0    0    -1  
+$EndComp
+Text Label 8950 6200 2    50   ~ 0
+MCR+
 $EndSCHEMATC
