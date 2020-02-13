@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -95,8 +95,6 @@ Wire Wire Line
 	1050 3600 1350 3600
 Wire Wire Line
 	1650 3600 2400 3600
-Text Label 2400 3800 2    50   ~ 0
-A2
 $Comp
 L Device:R R15
 U 1 1 5EEAED84
@@ -159,8 +157,6 @@ Wire Wire Line
 Connection ~ 1450 4750
 Wire Wire Line
 	1450 4750 1450 4950
-Text Label 2400 3500 2    50   ~ 0
--IN1
 Wire Wire Line
 	1900 3300 1900 4050
 $Comp
@@ -336,19 +332,6 @@ F 3 "" H 8150 1300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9750 1300 10450 1300
-Wire Wire Line
-	2400 4200 2400 4300
-$Comp
-L Studienarbeit:ADuM3190ARQZ U8
-U 1 1 5EF0B225
-P 2400 2900
-F 0 "U8" H 3400 3287 60  0000 C CNN
-F 1 "ADuM3190ARQZ" H 3400 3181 60  0000 C CNN
-F 2 "Studienarbeit:ADuM3190ARQZ" H 3400 3140 60  0001 C CNN
-F 3 "" H 2400 2900 60  0000 C CNN
-	1    2400 2900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 5EF0ED5D
@@ -384,7 +367,6 @@ F 3 "~" H 4550 3100 50  0001 C CNN
 	1    4550 3100
 	0    -1   -1   0   
 $EndComp
-Connection ~ 4400 2900
 $Comp
 L Device:C C21
 U 1 1 5F0481FA
@@ -408,8 +390,6 @@ F 3 "~" H 2300 3100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5100 4000 4400 4000
-Wire Wire Line
 	4700 2900 5100 2900
 Connection ~ 5100 2900
 Wire Wire Line
@@ -423,7 +403,6 @@ Wire Wire Line
 	2150 3100 2150 4200
 Wire Wire Line
 	2150 4200 2400 4200
-Connection ~ 2400 4200
 Wire Wire Line
 	2150 2900 2050 2900
 Wire Wire Line
@@ -463,8 +442,6 @@ F 3 "" H 7750 4400 50  0001 C CNN
 	1    7750 4400
 	1    0    0    -1  
 $EndComp
-Text Label 7750 3800 2    50   ~ 0
-A3
 Text Label 7750 3500 2    50   ~ 0
 -IN2
 Wire Wire Line
@@ -579,13 +556,32 @@ F 3 "" H 7750 2900 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	9750 4000 9750 4100
-Connection ~ 2400 4300
-Wire Wire Line
-	2400 4300 2400 4400
-Connection ~ 4400 4000
 Wire Wire Line
 	2450 3100 2400 3100
 Wire Wire Line
 	2450 2900 2400 2900
+Text GLabel 7750 3800 0    50   Input ~ 0
+A3
+Text Label 2400 3500 2    50   ~ 0
+-IN1
+Wire Wire Line
+	2400 4300 2400 4400
+Connection ~ 4400 4000
+Connection ~ 4400 2900
 Connection ~ 2400 2900
+Wire Wire Line
+	5100 4000 4400 4000
+$Comp
+L Studienarbeit:ADuM3190ARQZ U8
+U 1 1 5EF0B225
+P 2400 2900
+F 0 "U8" H 3400 3287 60  0000 C CNN
+F 1 "ADuM3190ARQZ" H 3400 3181 60  0000 C CNN
+F 2 "Studienarbeit:ADuM3190ARQZ" H 3400 3140 60  0001 C CNN
+F 3 "" H 2400 2900 60  0000 C CNN
+	1    2400 2900
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 3800 0    50   Input ~ 0
+A2
 $EndSCHEMATC
