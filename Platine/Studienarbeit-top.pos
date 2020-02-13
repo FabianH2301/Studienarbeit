@@ -1,4 +1,4 @@
-### Module positions - created on 13/02/2020 10:25:28 ###
+### Module positions - created on 13/02/2020 11:14:34 ###
 ### Printed by Pcbnew version kicad (5.1.5)-3
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -73,7 +73,7 @@ R27       3k                 R_0805_2012Metric                 179.6900  -115.91
 SW1       SW_Push            SW_SPST_B3S-1000                  181.3000   -74.5600   90.0000  top
 U1        LD3985M33R_SOT23   SOT-23-5                          172.5000   -63.7500  180.0000  top
 U2        STM32F103C8Tx      LQFP-48_7x7mm_P0.5mm              182.1200   -94.9000    0.0000  top
-U3        LM4040-2.5         SOT-23                            175.3600  -104.6300    0.0000  top
+U3        LM4040-2.5         SOT-23                            176.7100  -103.2500    0.0000  top
 U4        ACS712xLCTR-30A    SOIC-8_3.9x4.9mm_P1.27mm          165.8000   -73.7500    0.0000  top
 U5        ACS712xLCTR-30A    SOIC-8_3.9x4.9mm_P1.27mm          165.9700   -79.9900    0.0000  top
 U6        SN65HVD230         SOIC-8_3.9x4.9mm_P1.27mm          164.5600   -57.9000   90.0000  top
